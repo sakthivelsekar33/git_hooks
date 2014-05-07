@@ -38,3 +38,11 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
+
+
+gem 'rubocop'
+
+group :development, :test do
+	gem 'rspec-rails', '~> 2.14.0'
+	gem 'factory_girl_rails', '~> 4.2.1'
+end
